@@ -21,5 +21,7 @@ To run the equivalent C++ benchmark:
 g++ benchmark.cpp
 
 # Run the benchmark
-./a.out
+time ./a.out
 ```
+
+10 seconds on my machine.
