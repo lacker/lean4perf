@@ -18,10 +18,10 @@ To run the equivalent C++ benchmark:
 
 ```
 # Compile. I assume you already have gcc installed
-g++ benchmark.cpp
+g++ -O3 benchmark.cpp
 
 # Run the benchmark
 time ./a.out
 ```
 
-10 seconds on my machine.
+7 seconds on my machine.
